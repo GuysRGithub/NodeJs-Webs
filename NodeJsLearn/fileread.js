@@ -1,0 +1,10 @@
+var fs = require("fs")
+var text = fs.readFileSync('hello.txt', 'utf-8')
+fs.readFile('hello.txt', function(err, data){
+    console.log("err" + err)
+    console.log('data' + data)
+})
+console.log(text)
+fs.writeFileSync('hello.txt', "I love you! :))")
+var newText = fs.readFileSync('hello.txt', 'utf-8')
+console.log(newText)

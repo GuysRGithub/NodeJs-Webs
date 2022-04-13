@@ -1,0 +1,19 @@
+{
+  "name": "firstnodejs",
+  "version": "1.0.0",
+  "description": "First Node JS App",
+  "main": "fileread.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "guysrobot"
+  ],
+  "author": "GuysRobot",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1"
+  }
+}
